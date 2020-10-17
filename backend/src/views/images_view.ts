@@ -1,8 +1,9 @@
 import Image from '../models/Image';
-const { URL_SERVER } = process.env;
 
 export default {
     render(image: Image) {
+        const { URL_SERVER } = process.env;
+
         return {
             id: image.id,
             url: `${URL_SERVER}/uploads/${image.path}`
