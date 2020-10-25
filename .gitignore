@@ -5,3 +5,5 @@ backend/yarn.*
 backend/.env
 
 web/yarn.*
+.vscode/settings.json
+backend/src/database/database.sqlite
