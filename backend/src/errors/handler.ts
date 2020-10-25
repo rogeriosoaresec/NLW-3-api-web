@@ -20,7 +20,7 @@ const errorHandler : ErrorRequestHandler = ( error, req, res, next ) => {
     }
 
     if (error instanceof EntityNotFoundError) {
-        return res.status(404).json({ message: 'Could not find any entity of type "Orphanage" matching: "6"' })
+        return res.status(404).json({ message: 'Could not find any entity.' })
     }
 
     return res.status(500).json({ message: "Internal server error" })
