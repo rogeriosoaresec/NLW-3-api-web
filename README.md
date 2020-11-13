@@ -1,2 +1,3 @@
-# nlw-3-WEB
-Projeto criado na NLW realizado pela RocketSeat
+# nlw-3
+Projeto criado na NextLevelWeek 3 realizado pela RocketSeat
+API / WEB
